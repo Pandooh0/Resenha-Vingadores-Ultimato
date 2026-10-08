@@ -1,0 +1,244 @@
+```css
+/* =========================
+   BODY
+========================= */
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #eeeeee;
+
+    font-family: Calibri, Arial, sans-serif;
+}
+
+
+/* =========================
+   MENU
+========================= */
+
+.menu {
+    position: fixed;
+
+    left: 0;
+    top: 0;
+
+    width: 100%;
+
+    background-color: #111111;
+
+    text-align: center;
+
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 22px;
+
+    z-index: 1000;
+
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: block;
+
+    padding: 12px 10px;
+
+    color: white;
+
+    text-decoration: none;
+
+    transition: 0.2s;
+}
+
+.menu a:hover {
+    color: white;
+
+    background-color: #e62429;
+}
+
+
+/* =========================
+   CONTEÚDO
+========================= */
+
+.conteudo {
+    max-width: 1000px;
+
+    margin: 70px auto 30px;
+
+    padding: 25px;
+
+    background-color: lightgray;
+
+    border-radius: 5px;
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+/* =========================
+   TÍTULO
+========================= */
+
+.conteudo h1 {
+    margin-top: 0;
+    padding-top: 0;
+
+    text-align: center;
+
+    font-family: Calibri, Arial, sans-serif;
+
+    color: #222222;
+
+    border-bottom: 2px solid #e62429;
+
+    padding-bottom: 10px;
+}
+
+
+/* =========================
+   SUBTÍTULOS
+========================= */
+
+.conteudo h2 {
+    font-family: Calibri, Arial, sans-serif;
+
+    padding-left: 0;
+
+    color: #222222;
+}
+
+
+/* =========================
+   PARÁGRAFOS
+========================= */
+
+.conteudo p {
+    margin: 0 0 20px 0;
+
+    padding: 0;
+
+    text-align: justify;
+
+    font-family: Calibri, Arial, sans-serif;
+
+    font-size: 18px;
+
+    line-height: 1.5;
+}
+
+
+/* =========================
+   IMAGEM
+========================= */
+
+.ultimato {
+    float: left;
+
+    width: 30%;
+    height: auto;
+
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+/* =========================
+   TRAILER
+========================= */
+
+.trailer {
+    clear: both;
+
+    padding-left: 0;
+
+    margin-top: 30px;
+    padding-top: 20px;
+
+    border-top: 1px solid #aaaaaa;
+}
+
+.trailer h2 {
+    color: #222222;
+
+    padding-left: 0;
+}
+
+
+/* =========================
+   IFRAME
+========================= */
+
+.trailer iframe {
+    display: block;
+
+    width: 100%;
+    max-width: 560px;
+
+    aspect-ratio: 16 / 9;
+
+    border: 0;
+
+    border-radius: 5px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+/* =========================
+   CELULAR
+========================= */
+
+@media (max-width: 700px) {
+
+    .menu {
+        font-size: 17px;
+    }
+
+    .menu a {
+        padding: 10px 6px;
+    }
+
+    .conteudo {
+        margin: 60px 10px 20px;
+
+        padding: 20px;
+    }
+
+    .conteudo h1 {
+        font-size: 28px;
+    }
+
+    .conteudo p {
+        font-size: 17px;
+    }
+
+    .ultimato {
+        float: none;
+
+        display: block;
+
+        width: 100%;
+
+        margin: 0 auto 20px;
+    }
+
+    .trailer iframe {
+        width: 100%;
+    }
+}
+```
