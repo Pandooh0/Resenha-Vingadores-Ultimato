@@ -1,1 +1,1 @@
-Projeto desenvolvido para aprimorar conhecimentos em HTML e CSS, apresentando uma página de crítica cinematográfica sobre *Vingadores: Ultimato*, com informações sobre o filme e acesso ao trailer oficial.
+Projeto desenvolvido em HTML e CSS no primeiro trimestre de 2024, inicio dos meus estudos em HTML e CSS durante o curso técnico de desenvolvimento de sistemas, apresentando uma página de crítica cinematográfica sobre *Vingadores: Ultimato*, com informações sobre o filme e acesso ao trailer oficial.
