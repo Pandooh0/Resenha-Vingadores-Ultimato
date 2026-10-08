@@ -1,0 +1,1 @@
+Projeto desenvolvido para aprimorar conhecimentos em HTML e CSS, apresentando uma página de crítica cinematográfica sobre *Vingadores: Ultimato*, com informações sobre o filme e acesso ao trailer oficial.
